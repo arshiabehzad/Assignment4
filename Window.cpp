@@ -14,6 +14,7 @@ Window::~Window()
 
 }
 
+//pairs student to an instance variable, and sets the window being open to false
 void Window::pairStudent(Student* st, unsigned int timeEntered)
 {
     studentAtWindow = st;
